@@ -18,7 +18,7 @@ Software Requirements
 Open via Bash/GitBash:
 
 1. Clone this repository onto your computer:
-   `git clone {PUT_REPO_HERE}`
+   `git clone https://github.com/TorchAblaze/my-mad-lib.git`
 2. Navigate into the `my-mad-lib` directory, and open in Visual Studio Code or preferred text editor
 3. Open index.html in preferred browser
 
