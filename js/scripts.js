@@ -5,7 +5,7 @@ $(document).ready(function () {
     const adjective1Input = $("input#adjective1").val();
     const noun1Input = $("input#noun1").val();
     const person3Input = $("input#person3").val();
-    const quoteInput = $("input#quote1").val();
+    const quoteInput = $("input#quote").val();
     const pastTenseVerbInput = $("input#past-tense-verb").val();
 
     $(".person1").text(person1Input);
@@ -16,7 +16,7 @@ $(document).ready(function () {
     $(".quote").text(quoteInput);
     $(".past-tense-verb").text(pastTenseVerbInput);
 
-    $("story").show();
+    $("#story").show();
 
     event.preventDefault();
   });
